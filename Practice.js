@@ -7,3 +7,8 @@ a = {
 };
 b = { ...a, wow: "wah" };
 b;
+
+fnc = (a, b) => {
+  return a + b;
+};
+console.log(fnc(4, 9));
