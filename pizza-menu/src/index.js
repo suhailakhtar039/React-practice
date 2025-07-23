@@ -4,11 +4,18 @@ import ReactDOM from "react-dom/client";
 function App() {
   return (
     <div>
-      <h1>Hello React!</h1>
+      <Header />
       <Pizza />
     </div>
   );
 }
+
+function Header() {
+  const style = {};
+  return <h1 style={{ color: "red" }}>Suhail Pizza Restaurant</h1>;
+}
+
+function Menu() {}
 
 function Pizza() {
   return (
