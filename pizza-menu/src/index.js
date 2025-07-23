@@ -11,8 +11,8 @@ function App() {
 }
 
 function Header() {
-  const style = {};
-  return <h1 style={{ color: "red" }}>Suhail Pizza Restaurant</h1>;
+  const style = { color: "red", fontSize: "48px", textTransform: "uppercase" };
+  return <h1 style={style}>Suhail Pizza Restaurant</h1>;
 }
 
 function Menu() {}
