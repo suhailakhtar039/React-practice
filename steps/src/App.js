@@ -1,4 +1,4 @@
-const messages = ["Learn react", "Apply for job", "Invest your income😊"];
+const messages = ["Learn react🖥️", "Apply for job🧑‍⚖️", "Invest your income😊"];
 
 export default function App() {
   const step = 3;
